@@ -3,13 +3,11 @@
     padding:0;
     font-family: 'poppins',sans-serif;
     box-sizing: border-box;
-
 }
 body{
     background-color: #222;
- 
 }
- .card{
+.card{
     width:90%;
     max-width: 470px;
     background: linear-gradient(155deg,#ffe8a1,#006eff);
@@ -19,13 +17,13 @@ body{
     padding: 70px 35px;
     text-align: center;
  }
- .search{
+.search{
     width: 100px;
     display: flex;
     align-items: cneter;
     justify-content: space-between;
  }
- .search input{
+.search input{
     border:2.5px solid rgb(80, 119, 129);
     outline:0;
     color:#555;
@@ -37,7 +35,7 @@ body{
     font-size: 18px;
     margin-left: 15px;
  } 
- .search button{
+.search button{
     border:0;
     outline:0;
     background: #ebfffc;
@@ -46,7 +44,7 @@ body{
     height: 50px;
     cursor: pointer;
  }
- .search button img{
+.search button img{
     width:55px;
 
  }
